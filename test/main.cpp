@@ -12,5 +12,9 @@ int main()
     truck1.v=10;
     State truck2={0,0,0,10,5,10};
     std::cout << truck1.length << std::endl;
+    std::cout << truck1.theta << std::endl;
+    std::cout << truck2.length << std::endl;
+    std::cout << truck2.theta << std::endl;
+    
     return 0;
 }
