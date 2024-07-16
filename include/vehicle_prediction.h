@@ -39,7 +39,7 @@ struct State
 State PredictSafetyState(State pre_st, State cur_st)
 {
     State predict_st = cur_st;
-    if (std::abs(cur_st.v) > V_THRESHOLD & std::hypot(cur_st.x - pre_st.x, cur_st.y - pre_st.y) < 1e-3)
+    if (std::abs(cur_st.v) > V_THRESHOLD & std::hypot(cur_st.x - pre_st.x, cur_st.y - pre_st.y) > 1e-3)
     {
         double theta_pre2cur = std::atan2(cur_st.y - pre_st.y, cur_st.x - pre_st.x);
         double dtheta = theta_pre2cur - cur_st.theta;
