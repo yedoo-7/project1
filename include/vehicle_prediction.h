@@ -11,7 +11,6 @@
 #define VEHICLE_PREDICTION_H_
 #include <cmath>
 
-const double PI=acos(-1);
 const double PI2 = 2 * M_PI;
 const double V_THRESHOLD = 0.5;
 const double WEIGHT_V = 0.5;

@@ -15,6 +15,8 @@ int main()
     std::cout << truck1.theta << std::endl;
     std::cout << truck2.length << std::endl;
     std::cout << truck2.theta << std::endl;
-    
+    State states=PredictSafetyState(truck1,truck2);
+    std::cout << states.x << std::endl;
+    std::cout << PI2 << std::endl;
     return 0;
 }
