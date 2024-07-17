@@ -11,7 +11,6 @@
 #define VEHICLE_PREDICTION_H_
 #include <cmath>
 
-const double PI=acos(-1);
 const double PI2 = 2 * M_PI;
 const double V_THRESHOLD = 0.5;
 const double WEIGHT_V = 0.5;
@@ -52,6 +51,7 @@ State PredictSafetyState(State pre_st, State cur_st)
         predict_st.x += expand_len * std::cos(cur_st.theta) / 2;
         predict_st.y += expand_len * std::sin(cur_st.theta) / 2;
         predict_st.length += std::abs(expand_len);
+        //123456
     }
     return predict_st;
 }

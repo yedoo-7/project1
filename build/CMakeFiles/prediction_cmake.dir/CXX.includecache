@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/vehicle_prediction.h
+cmath
+-
+
+/home/admxf/Projects/project1/main.cpp
+iostream
+-
+vehicle_prediction.h
+/home/admxf/Projects/project1/vehicle_prediction.h
+
