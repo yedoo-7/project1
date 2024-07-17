@@ -1,0 +1,3 @@
+/home/admxf/Projects/project1/build/CMakeFiles/rebuild_cache.dir
+/home/admxf/Projects/project1/build/CMakeFiles/prediction_cmake.dir
+/home/admxf/Projects/project1/build/CMakeFiles/edit_cache.dir
