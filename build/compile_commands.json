@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/admxf/Projects/project1/build",
+  "command": "/usr/bin/c++   -I/home/admxf/Projects/project1/include  -g   -o CMakeFiles/prediction_cmake.dir/main.cpp.o -c /home/admxf/Projects/project1/main.cpp",
+  "file": "/home/admxf/Projects/project1/main.cpp"
+}
+]

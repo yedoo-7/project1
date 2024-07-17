@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/prediction_cmake.dir/main.cpp.o  -o prediction_cmake 
+/usr/bin/c++  -g  -rdynamic CMakeFiles/prediction_cmake.dir/main.cpp.o  -o prediction_cmake 

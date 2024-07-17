@@ -18,5 +18,6 @@ int main()
     State states=PredictSafetyState(truck1,truck2);
     std::cout << states.x << std::endl;
     std::cout << PI2 << std::endl;
+    std::cout<<"hello1213"<<std::endl;
     return 0;
 }
