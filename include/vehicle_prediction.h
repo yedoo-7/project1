@@ -51,7 +51,6 @@ State PredictSafetyState(State pre_st, State cur_st)
         predict_st.x += expand_len * std::cos(cur_st.theta) / 2;
         predict_st.y += expand_len * std::sin(cur_st.theta) / 2;
         predict_st.length += std::abs(expand_len);
-        //123456
     }
     return predict_st;
 }
